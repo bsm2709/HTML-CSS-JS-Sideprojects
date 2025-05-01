@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #22223B;
+    text-align: center;
+}
+#printWinner{
+    background-color: #F2E9E4;
+}
+h2{
+    font-size: 5rem;
+    color: #22223B;
+}
+#reGame{
+    padding: 1rem;
+    margin: 2 ,0,2,0 ;
+    border-radius: 7px;
+    border: none;
+    background-color: #C9ADA7;
+    color: #22223B;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    padding: 3rem;
+    font-size: 5rem;
+    color: #C9ADA7;
+    text-align: center;
+}
+.layout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 50%;
+    gap: 1rem;
+    align-content: center;
+}
+.box{
+    height: 8rem;
+    width: 15rem;
+    font-size: 3rem;
+    border-radius: 7px;
+    background-color: #F2E9E4;
+    color: #22223B;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    
+}
+#rest-btn{
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.hide{
+    display:none;
+}
