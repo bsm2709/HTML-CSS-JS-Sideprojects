@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #9D8189;
+    text-align: center;
+}
+
+#Heading1{
+    margin: 3rem 35rem 1rem 35rem;
+    font-size: 4rem;
+    background-color: #9D8189;
+}
+
+#subHeading{
+    margin:0rem 0rem 3rem 0rem ;
+    font-size: 1.5rem;
+}
+
+.divi{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 2rem;
+    color: rgb(246, 246, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    height: 8rem;
+}
+.divi:hover{
+    height:6.5rem;
+    width: 6.5rem;
+    transition: all 0.5s ease; 
+}
+
